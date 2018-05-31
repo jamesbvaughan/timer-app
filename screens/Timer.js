@@ -65,7 +65,9 @@ class Timer extends React.Component {
 
   render() { return (
       <View style={styles.container}>
+        <Text>james' text</Text>
         <Time timeInSeconds={this.state.secondsLeft} />
+        <Text>james' other text</Text>
       </View>
     )
   }

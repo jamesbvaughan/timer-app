@@ -1,4 +1,4 @@
-export const leftPad = (input, length, padChar) => {
+const leftPad = (input, length, padChar) => {
   if ((input + '').length >= length) {
     return input
   } else {
