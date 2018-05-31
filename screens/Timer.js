@@ -69,7 +69,7 @@ class Timer extends React.Component {
           "Don't look at the clock; Do what it does.  Keep Going"
         </Text>
         <Time timeInSeconds={this.state.secondsLeft} />
-        <Text>james' other text</Text>
+        <Text>james other text</Text>
       </View>
     )
   }
